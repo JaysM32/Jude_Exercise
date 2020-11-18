@@ -51,6 +51,5 @@ if __name__ == '__main__':
     print (checked)
     file.seek(0)
     checked2 = nonreadelim(file.read().lower())
-    checked2.split()
     checked3 = wordfrequencies(checked2.split())
     print (checked3)
